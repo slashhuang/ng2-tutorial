@@ -1,8 +1,12 @@
-# ng2-tutorial [checkout git branches to learn Angular2 app] 
+# ng2-tutorial [ 请切换git分支来学习Angular2 app] 
 
 ## usage[安装项目]
 ```
+  git clone git@github.com:slashhuang/ng2-tutorial.git
+  
   npm install
+  
+  git checkout git checkout ngModule
   
   npm start
 
