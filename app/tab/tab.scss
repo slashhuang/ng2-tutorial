@@ -1,7 +1,9 @@
 header{
+  text-align: center;
+  padding:30px;
+  font-size: 20px;
   a{
     color:blue;
-    font-size: 20px;
     cursor: pointer;
     padding:20px 50px;
     &:hover{

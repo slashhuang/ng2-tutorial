@@ -18,5 +18,6 @@
 >```git checkout router```
 
 ## 技术讲解[tech details for separate branch]
+[router官方API](https://angular.io/docs/ts/latest/guide/router.html)
 
 

@@ -8,6 +8,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<%= webpackConfig.metadata.title %>">
+    <style>
+        body{
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+            color:#000;
+            opacity: .6;
+        }
+    </style>
     <!-- base url -->
     <base href="<%= webpackConfig.metadata.baseUrl %>">
 </head>
@@ -15,7 +25,10 @@
 <body style="margin: 0;padding: 0;">
 <% if (webpackConfig.metadata.ENV === 'development') { %>
 <!-- Webpack Dev Server reload -->
-<div style="text-align:center; padding:20px;background:lightcyan">目前您在开发环境工作,对项目有改进意见,欢迎提出pull request</div>
+<div style="text-align:center; padding:20px;background:lightcyan;position: relative">
+    目前您在开发环境工作,对项目有改进意见,欢迎提出pull request
+    <a href="https://github.com/slashhuang/ng2-tutorial" style="position: absolute;right:20px;">fork/star me on github</a>
+</div>
 <% } %>
 
 <my-app>
