@@ -146,7 +146,7 @@ module.exports = {
       */
       {
         test: /\.scss$/,
-        loaders: ['style-loader','css-loader','sass-loader']
+        loaders: ['raw-loader','sass-loader']
       },
       {
         test: /\.less$/,
@@ -160,9 +160,12 @@ module.exports = {
         test: /\.html$/,
         loader: 'raw-loader',
         exclude: [helpers.root('index.html')]
+      },
+      {
+        test:/\.png|\.jpg$/,
+        loader:'file-loader?name=img-[sha512:hash:base64:7].[ext]'
       }
-
-    ]
+ ]
 
   },
 

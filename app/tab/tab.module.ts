@@ -8,7 +8,7 @@ import { TabComponent } from './tab.component';
 @NgModule({
     imports :[CommonModule],
     declarations:[TabComponent],
-    exports:[TabComponent]
+    exports:[TabComponent] //exports属性导出供其余模块引用的directives/pipes/module
 })
 export class TabModule {
 

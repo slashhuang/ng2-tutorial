@@ -1,6 +1,11 @@
 header{
   a{
     color:blue;
-    font-size: 14px;
+    font-size: 20px;
+    cursor: pointer;
+    padding:20px 50px;
+    &:hover{
+      text-decoration: underline;
+    }
   }
 }
