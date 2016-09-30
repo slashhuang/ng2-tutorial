@@ -21,7 +21,10 @@
 
 >```git checkout router```
 
-## 技术讲解[tech details for separate branch]
+## 技术细节请移步issue
+[如何起步使用ng2架构web项目](https://github.com/slashhuang/ng2-tutorial/issues/1)
+
+## Api列表
 
 [ngModule官方Api](https://angular.io/docs/ts/latest/api/core/index/NgModule-interface.html)
 
