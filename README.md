@@ -6,7 +6,8 @@
   
   npm start
 
-``
+```
+
 ## git branches[各个git分支模块说明]
 - @NgModule module主模块入门 
 
