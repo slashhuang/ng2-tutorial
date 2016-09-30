@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>angular2-components</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="<%= webpackConfig.metadata.title %>">
+    <!-- base url -->
+    <base href="<%= webpackConfig.metadata.baseUrl %>">
+</head>
+
+<body style="margin: 0;padding: 0;">
+<% if (webpackConfig.metadata.ENV === 'development') { %>
+<!-- Webpack Dev Server reload -->
+<div style="text-align:center; padding:20px;background: lightcyan">目前您在开发环境工作</div>
+<% } %>
+
+<my-app>
+    加载中
+</my-app>
+
+</body>
+</html>
