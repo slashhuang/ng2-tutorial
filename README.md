@@ -1,6 +1,8 @@
 # ng2-tutorial [checkout git branches to learn Angular2 app] 
 ## usage[安装项目]
+
 ```npm install```
+
 ```npm start```
 ## git branches[各个git分支模块说明]
 - @NgModule module主模块入门 
@@ -14,4 +16,7 @@
 - router动态路由  
 
 >```git checkout router```
+
+## 技术讲解[tech details for separate branch]
+
 
