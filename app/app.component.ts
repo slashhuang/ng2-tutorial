@@ -3,7 +3,6 @@
  */
 
 import { Component } from '@angular/core';
-import { TabComponent } from './tab/tab.component';
 @Component({
     selector: 'my-app',
     template: `<h1>My First Angular App</h1>
