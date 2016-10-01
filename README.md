@@ -6,7 +6,7 @@
   
   npm install
   
-  git checkout git checkout ngModule
+  git checkout ngModule
   
   npm start
 
